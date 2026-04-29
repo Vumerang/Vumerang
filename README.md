@@ -1,3 +1,4 @@
+[index.html](https://github.com/user-attachments/files/27209338/index.html)
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -775,6 +776,34 @@
     box-shadow: 0 8px 28px rgba(232,160,32,0.38);
   }
 
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 100px;
+    border: 1px solid var(--gris-borde);
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+    background: var(--blanco);
+  }
+
+  .social-btn:hover {
+    border-color: var(--naranja);
+    background: var(--naranja);
+    color: #fff;
+  }
+
   .form-nota {
     font-size: 0.78rem;
     color: #b0b0b5;
@@ -986,6 +1015,18 @@
     <span class="section-tag">Contáctanos</span>
     <h2 class="section-title">¿Listo para encontrar<br>tu próximo hogar?</h2>
     <p class="section-sub">Cuéntanos qué estás buscando. Un asesor Vumerang te contacta en menos de 24 horas.</p>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/vumerangmx/" target="_blank" rel="noopener" class="social-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        Facebook
+      </a>
+      <a href="https://www.instagram.com/vumerang.mx" target="_blank" rel="noopener" class="social-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        Instagram
+      </a>
+    </div>
+
     <form action="https://formspree.io/f/TU_ID_FORMSPREE" method="POST">
       <div class="form-grid">
         <div class="form-field">
